@@ -8,16 +8,17 @@
         </div>
       </div>
     </section>
-    <section class="section about">
-      <div class="container">
+    <section class="section about columns">
+      <div class="column"></div>
+      <div class="container column is-four-fifths">
         <h1 class="title">Hi there, I'm Nate!</h1>
         <h2
           class="subtitle"
         >I am a Software Engineer with a passion for helping people do what they love, better.</h2>
-        <div class="about-content-wrapper level">
-          <div class="about-text-wrapper">
+        <div class="about-content-wrapper columns">
+          <div class="about-text-wrapper column">
             <p class="about-text">
-              <strong>I'm Co-Owner of Richardson Media House, and a Full-Stack Software Engineer at charterUP</strong>, both based in Atlanta, Georgia. I have extensive experience prototyping, designing, developing, and optimizing applications and UIs for the Web. I enjoy creating software that is both lightweight and functional, while going above and beyond to bring quality code that fulfills its intended use.
+              <strong>I'm Co-Owner of Devlytic, and Lead Application Engineer at ADP</strong>. I have extensive experience prototyping, designing, developing, and optimizing applications and UIs for the Web. I enjoy creating software that is both lightweight and functional, while going above and beyond to bring quality code that fulfills its intended use.
             </p>
             <br />
             <p
@@ -47,16 +48,13 @@
               </p>
             </div>
           </div>
-          <div class="has-text-centered">
+          <div class="has-text-centered column">
             <figure class="image is--4by5">
               <img class="headshot" src="@/static/smaller.jpg" alt="headshot" />
             </figure>
             <hr />
             <h3>Let's Talk!</h3>
             <span>
-              <a href="https://twitter.com/naterchrdsn">
-                <fa class="icon is-medium" :icon="['fab', 'twitter']" />
-              </a>
               <a href="https://github.com/naterchrdsn">
                 <fa class="icon is-medium" :icon="['fab', 'github']" />
               </a>
@@ -70,6 +68,7 @@
           </div>
         </div>
       </div>
+      <div class="column"></div>
     </section>
     <footer class="footer">
       <div class="content has-text-centered">
@@ -132,6 +131,7 @@ export default {
     overflow: hidden;
     height: 250px;
     width: 250px;
+    margin: auto;
 
     .headshot {
       top: -75px;
