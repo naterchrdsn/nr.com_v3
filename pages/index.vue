@@ -43,7 +43,7 @@
                 <a
                   style="margin-right: 150px;"
                   class="button is-outlined is-link is-large"
-                  href="https://www.dropbox.com/s/swwugjps0kqxirh/Nate_Richardson_Software_Engineer2.pdf?dl=0"
+                  href="https://www.dropbox.com/s/wjhj8y3bmwwankx/nate_richardson_lead_application_engineer.pdf?dl=0"
                 >View My Resume</a>
               </p>
             </div>
